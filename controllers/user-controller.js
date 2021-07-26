@@ -4,7 +4,14 @@ const userController = {
   //get all users
   getAllUsers(req, res) {
     User.find({})
+      .populate([
+        { path: 'thoughts', select: "-__v" },
+        { path: 'friends', select: "-__v" }
+      ])
       .select('=_v')
+      .then(dbUserData => {
+        res.json(dbUserData);
+      })
       .catch(err => {
         console.log(err);
         res.status(500).json(err);
