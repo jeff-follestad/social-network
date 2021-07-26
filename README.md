@@ -22,7 +22,7 @@ Next, make a copy of this repository, and run `npm-i` to install the following p
 * moment https://www.npmjs.com/package/moment
 
 **VIDEO DEMO OF API**
-* text<link to the video>
+* https://www.awesomescreenshot.com/video/4609052?key=52bc8dd6a6981141de072435d5cc141f
 
 
 
