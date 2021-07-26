@@ -1,17 +1,12 @@
 {
-  "dependencies": {
-    "express": "^4.17.1",
-    "moment": "^2.29.1",
-    "mongodb": "^4.0.1",
-    "mongoose": "^5.13.3"
-  },
   "name": "social-network-api",
-  "description": "initial commit",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/jeff-follestad/social-network/issues"
   },
-  "homepage": "https://github.com/jeff-follestad/social-network#readme"
+  "homepage": "https://github.com/jeff-follestad/social-network#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.0",
+    "mongoose": "^5.10.7"
+  }
 }
